@@ -1,0 +1,70 @@
+/* 头部模块 */
+.header-container{
+    text-align: center;
+}
+
+.header-container>p{
+    margin: 30px 0;
+    color: #000000;
+    font-size: 30px;
+}
+
+.avatar{
+    height: 160px;
+    overflow: hidden;
+}
+
+.avatar>img{
+    margin: 0 auto;
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+}
+
+.avatar>a{
+    display: block;
+    position: relative;
+    top: -160px;
+    margin: 0 auto;
+    height: 160px;
+    width: 160px;
+    line-height: 160px;
+    border-radius: 80px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.avatar>a:hover,
+.avatar>a:active{
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* 卡片 */
+.card{
+    padding: 30px 60px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 5px #ededed;
+}
+
+.card-title{
+    display: inline;
+}
+
+.card-list dt,
+.card-list dd
+{
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.card-list dt{
+    width: 100px;
+}
+
+.card-list a{
+    margin: 0 3px;
+}

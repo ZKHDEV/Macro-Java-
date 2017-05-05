@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Macro 导航</title>
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/font-awesome.css">
+    <link rel="stylesheet" href="static/css/common.css">
+    <link rel="stylesheet" href="static/css/person.css">
+</head>
+
+<body>
+    <!-- 导航栏开始 -->
+    <div class="header"></div>
+    <!-- 导航栏结束 -->
+    <!-- 正文开始 -->
+    <div class="container content">
+        <!-- 头部开始 -->
+        <div class="header-container">
+            <div class="avatar">
+                <img src="static/img/mystery.png" alt="头像">
+                <a href="javascript:void(0)">修改头像</a>
+            </div>
+            <p>Username</p>
+            <hr>
+        </div>
+        <!-- 头部结束 -->
+
+        <!-- 个人信息卡片开始 -->
+        <div class="col-md-10 col-md-offset-1 card">
+            <p>
+                <h3 class="card-title">个人信息</h3>
+                <a class="pull-right" href="javascript:void(0)">编辑</a>
+            </p>
+            <hr>
+            <form id="person-form" action="">
+                <dl id="pinfo-list" class="dl-horizontal card-list">
+                    <dt>姓名：</dt>
+                    <dd>ZKH</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                    <dt>年龄：</dt>
+                    <dd>20</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                    <dt>性别：</dt>
+                    <dd>男</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                    <dt>国家：</dt>
+                    <dd>中国</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                    <dt>城市：</dt>
+                    <dd>湛江</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                    <dt>职位：</dt>
+                    <dd>程序员</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                    <dt>邮箱：</dt>
+                    <dd>zkh100@outlook.com</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                    <dt>手机：</dt>
+                    <dd>13432833209</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                    <dt>爱好：</dt>
+                    <dd>编程，看书，游泳</dd>
+                    <dd class="hidden"><input type="text" value="ZKH"></dd>
+                </dl>
+            </form>
+        </div>
+        <!-- 个人信息卡片结束 -->
+
+        <!-- 账户信息卡片开始 -->
+        <div class="col-md-10 col-md-offset-1 card">
+            <p>
+                <h3 class="card-title">账户信息</h3>
+            </p>
+            <hr>
+            <dl id="ainfo-list" class="dl-horizontal card-list">
+                <dt>用户名：</dt>
+                <dd>zkh100 <a href="javascript:void(0)"><i class="icon-pencil"></i></a> <a href="javascript:void(0)"><i class="icon-key"></i></a></dd>
+                <dt>注册邮箱：</dt>
+                <dd>zkh100@outlook.com <a href="javascript:void(0)"><i class="icon-pencil"></i></a> <a class="text-danger" href="javascript:void(0)">未激活</a></dd>
+                <dt>注册时间：</dt>
+                <dd>2017-04-25 21:58:02</dd>
+            </dl>
+        </div>
+        <!-- 账户信息卡片结束 -->
+    </div>
+    <!-- 正文结束 -->
+    <div class="footer-container"></div>
+
+    <!-- Script -->
+    <!-- JQuery -->
+    <script src="static/js/jquery-1.12.4.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="static/js/bootstrap.js"></script>
+    <!-- 配置文件 -->
+    <script src="static/js/config.js"></script>
+    <!-- 工具集 -->
+    <script src="static/js/utils.js"></script>
+    <!-- 表单验证 -->  
+    <script src="static/js/jquery.validate.min.js"></script>
+    <script src="static/js/form-validate.js"></script>
+    <!-- 对话框 -->
+    <script src="static/js/dialog.js"></script>
+    <!-- 公共JS -->
+    <script src="static/js/common.js"></script>
+    <!-- 当前页面JS -->
+    <script src="static/js/person.js"></script>
+    <!-- 入口 -->  
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>
